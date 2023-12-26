@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;400;500;700;900&display=swap');
+body{margin:0; font-family: 'Noto Sans', sans-serif;}
+.list-none{list-style:none; margin:0; padding:0;}
+ .list-none li{ display:inline;}
+.menu{ background-color:#660066; padding:10px 15px; display:flex; justify-content:space-between; align-items:center;}
+.menu a{ color:#ffffff; text-decoration:none; font-weight:400;}
+.menu li{ margin-right:20px;}
+.button-border{border:1px solid #ffffff; padding:10px 15px; display:inline-block; border-radius:5px; color:#ffffff;}
+  .button-fill{border:1px solid #ffffff; padding:10px 15px; display:inline-block; border-radius:5px; background-color:#ffffff; color:#0a71f7 !important;}
+  .banner-section{
+	                display:flex; justify-content:space-between;
+					background-image:url(https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=2370&h=1185&url=https:%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F35%2F2019%2F10%2F01164001%2Ffb-how-to-choose-best-gym.jpg);
+					min-height:630px;
+	                background-size:cover;
+	                background-position:top -100px center;
+	                padding:0 15px;
+	                align-items:center;
+					
+  }
+  .banner-text{width:50%; color:#ffffff;}
+  .banner-text h1{ font-size:40px; margin:0; color:#ff3300;}
+  
